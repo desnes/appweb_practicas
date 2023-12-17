@@ -1,0 +1,334 @@
+/* estilo general */
+
+* {
+	margin: 0;
+	padding: 0px;
+    font-family: 'Roboto Slab',Arial,sans-serif;
+}
+li {
+    list-style-type: none;
+}
+a {    
+    text-decoration: none;
+    color: #000000;
+}
+
+/* fonts */
+
+.main-title {
+    font-family: 'Romanesco', cursive;
+    font-size: 96px;
+    font-weight: normal;
+}
+.title-2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600; 
+}
+.menu {
+    font-family: 'Inter', sans-serif; 
+    font-weight: normal; 
+    font-size: 16px;
+    text-transform: uppercase;         
+    
+}
+.menu-bold{
+    font-family: 'Inter', sans-serif; 
+    font-weight: 600; 
+    font-size: 16px;
+    text-transform: uppercase;       
+    
+}
+.miniatura {
+    font-family: 'Inter', sans-serif; 
+    font-weight: normal; 
+    font-size: 14px;     
+}
+.normal {
+    font-family: 'Inter', sans-serif; 
+    font-weight: normal; 
+    font-size: 16px;    
+}
+.placeholder {
+    font-family: 'Inter', sans-serif; 
+    font-weight: normal; 
+    font-size: 16px; 
+    color: #9E9A9A; 
+    text-transform: uppercase; 
+}
+
+/* body */
+
+ /* navbar */
+nav {    
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: space-between;
+    background-color: #A3A656;
+    height: 70px;
+    padding-left: 70px;
+
+}
+#navbar-items {
+    display: flex;
+    align-items: center; /* Centra verticalmente */ 
+}
+#navbar-items li {
+    display: inline-block;
+    margin-right: 24px; 
+}
+.navbar-section {    
+    box-sizing: border-box;
+    height: 70px;
+}
+#user, #country, .right{
+    display: flex;
+    align-items: center; 
+    
+}
+.right span {
+    margin: 0 8px 0 0 ; 
+}
+#user {
+    margin-right: 15px; 
+}
+#country {
+    margin-left: 15px; 
+}
+
+
+/* main */
+main {
+    position: relative;
+}
+#presentation {
+    position: relative;
+    background-image: url("images/main.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 667px;
+    color: #FFF;
+    text-align: center;
+}
+.text-spa{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 175px;
+    width: 550px;
+    color: #000;
+    background: rgba(35,74,98,0);
+    text-align: left;
+
+}
+.main-desc {
+    margin-top: 40px;
+}
+
+/*  seccion de inputs para reserva*/
+#book {
+    height: 100px ;
+    background-color: #F2F6F6;
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+}
+#book > div {
+    display: flex; /* Hacer que los elementos dentro del div estén en línea */
+    align-items: center; /* Centrar verticalmente los elementos dentro del div */
+
+}
+#book-input-section {
+    margin-left: 80px;
+    width: 490px;
+}
+#code-input-section {
+    width: 450px;
+    margin-left: 25px;
+}
+.book-input {
+    margin: 0 30px;
+}
+.code-input {
+    margin: 0 8px;
+}
+.css-input {
+    height: 60px;
+    padding: 0 10px;
+    font-size: 16px;
+    border-width: 0px;
+    border-color: #CCCCCC;
+    background-color: #ffffff;
+    border-radius: 15px;
+    flex: 1; 
+
+}
+
+/*  seccion de masajes*/
+#massages {
+    display: flex;
+    justify-content: center; 
+}
+.massage {
+    position: relative;
+    margin: 100px 67px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    max-width: 350px; 
+}
+.massage-img img {
+    max-width: 100%; 
+}
+.massage-title {
+    height: 80px;
+    width: 100%;
+    background-color: #A3A656;
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    color: #ffffff;   
+    border-radius: 15px 15px 0 0;
+}
+.massage-desc {
+    height: 70px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    color: #000000;   
+}
+.price-section {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: space-between; /* Centrar horizontalmente */
+
+}
+.price {
+    margin: 0 15px;
+}
+.book-btn {
+    height: 45px;
+    width: 45%;
+    border: none;
+    background-color: #A3A656;
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    color: #ffffff;   
+    border-radius: 35px;
+}
+/*  seccion de planes*/
+.plans-section {
+    height: 770px;
+    width: 100%;
+    background-color: #F2F6F6;
+    display: flex;
+    flex-direction: column; /* Organizar los elementos en columna */
+
+}
+.plan-title {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+}
+.plans {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding-left: 55px;
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+}
+.plan {
+    height: 80%;
+    width: 20%;
+    margin: 0 90px;
+    display: flex;
+    flex-direction: column; /* Organizar los elementos en columna */
+    align-items: center; /* Centrar horizontalmente los elementos dentro de cada artículo */
+
+    max-width: 350px; /* Ajustar el ancho máximo según tus necesidades */
+}
+.plan ul li {
+    list-style-type: disc;
+    margin: 5px;
+}
+.plan-img {
+    background-color: #ffffff;
+    width: 233px;
+    height: 233px;
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    border-radius: 50%;
+    border: #384001 11px solid;
+}
+.plan-btn {
+    height: 60px;
+    width: 100%;
+    border: none;
+    margin: 40px;
+    background-color: #A3A656;
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    color: #ffffff;   
+    border-radius: 35px;
+}
+/*  seccion del footer*/
+footer {
+    position: relative;
+    height: 97px;
+    background-color: #384001;
+}
+footer ul {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: 0 0 0 70px;
+    padding: 0;
+}
+footer ul li{
+    display: inline-block;
+    text-align: center;
+    margin-right: 90px;
+    color: #A3A656;
+}
+.siguenosen {
+    float: right;
+    position: relative;
+    top: 25%;
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+}
+.siguenosen span {
+    color: #A3A656;
+    margin: 0px 15px;
+}
+/* sección de hover HEADER y FOOTER */
+.navbar-section a:hover, #user:hover, #country:hover, .footer-items li:hover, .siguenosen span:hover {
+    color: #FFFF00; 
+}
+/* seccion de hover botones RESERVAR y VER CONDICIONES */
+.book-btn:hover, .plan-btn:hover {
+    background-color: #384001; 
+    color: #FFFFFF; 
+}
+
+
+
+
+
+
+
+
+
+

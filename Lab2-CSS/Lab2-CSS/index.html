@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Romanesco&display=swap" rel="stylesheet">
+    <title>Jodos</title>
+</head>
+<body>
+    <!-- crear la estructura de una pagina web de un spa-->
+    <!-- barra de navegación-->
+    <nav >
+        <div class="left menu">
+            <div id="navbar-items" class=" navbar-section">
+                <ul >
+                    <li> <a href="">Promociones </a></li>
+                    <li> <a href="">Fotos      </a></li>
+                    <li> <a href="">Servicios   </a></li>
+                    <li> <a href="">Mapa        </a></li>
+                    <li> <a href="">Contacto    </a></li>
+        
+                </ul>
+            </div>
+        </div>
+        <div class="right miniatura">
+            <div class="navbar-section" id="user">
+                <span><img src="images\user.png" alt="user-icon"></span> 
+                <span>Mi cuenta</span>                   
+            </div>
+
+            <div class="navbar-section " id="country">                    
+                    <span>ES</span>
+                    <span><img src="images\flag.png" alt="flag-spain"></span>  
+                    <span><img src="images\arrow.png" alt="flag-spain"></span>  
+                
+            </div> 
+        </div>
+            
+    </nav>
+    <main>
+        <!-- presentación, tipos de masajes, tipos de planes de suscripción -->
+        <section id="presentation">
+            <div class="text-spa">
+                <h1 class="main-title">SPA - Jodos</h1>
+                <p class="title-2 main-desc">Regálate un momento de paz y consiente a tu piel en el mejor lugar</p>
+            </div>
+        </section>
+        <section id="book">
+            <div id="book-input-section"> 
+                <h2 class="menu book-item">Reserva tu cita: </h2>
+                <input type="text" class="css-input book-input" />
+
+            </div>
+            <div id="code-input-section">
+                <h2 class="menu book-item">Código promocional :</h2>
+                <input type="text" class="css-input code-input placeholder" value="codigo" />
+
+            </div>
+
+        </section>
+        <section id="massages">
+            <article class="massage">
+                <h3 class="massage-title title-2">Masaje de pies</h3>
+                
+                <div class="massage-img">
+                    <img src="images/pies.png" alt="Masaje Relajante">
+                </div>
+                <p class="massage-desc normal">Esta es una descripcion de la opción en cuestión .....</p>
+                <div class="price-section">
+                    <p class="price title-2">$65</p>
+                    <button class="book-btn menu-bold">Reservar</button>
+                </div>
+            </article>
+    
+            <article class="massage">
+                <h3 class="massage-title title-2">Masaje relajante</h3>
+                <div class="massage-img">
+                    <img src="images/relajante.png" alt="Masaje Terapéutico">
+                </div>
+                <p class="massage-desc normal">Esta es una descripcion de la opción en cuestión .....</p>
+                <div class="price-section">
+                    <p class="price title-2">$60</p>
+                    <button class="book-btn menu-bold">Reservar</button>
+                </div>
+            </article>
+    
+            <article class="massage">
+                <h3 class="massage-title title-2">Masaje con bambú</h3>
+                <div class="massage-img">
+                    <img src="images/bambu.png" alt="Masaje Deportivo">
+                </div>
+                <p class="massage-desc normal">Esta es una descripcion de la opción en cuestión .....</p>
+                <div class="price-section">
+                    <p class="price title-2">$58</p>
+                    <button class="book-btn menu-bold">Reservar</button>
+                </div>
+            </article>
+        </section>
+        <section class="plans-section">
+            <h2 class="title-2 plan-title">Haste socio y prueba nuestros beneficios</h2>
+            <div class="plans">
+                <article class="plan">
+
+                    <div class="plan-img">
+                        <img src="images/gold.png" alt="Masaje Relajante">
+                    </div>
+                    <h2 class="title-2">GOLD</h2>
+                    <button class="plan-btn menu-bold">Ver condiciones</button>
+                    <ul>
+                        <li>Gimnasio</li>
+                        <li>Piscina</li>
+                        <li>Todos los tratamientos</li>
+                    </ul>
+
+                </article>
+                <article class="plan">
+
+                    <div class="plan-img">
+                        <img src="images/premium.png" alt="Masaje Relajante">
+                    </div>
+                    <h2 class="title-2">PREMIUM</h2>
+                    <button class="plan-btn menu-bold">Ver condiciones</button>
+                    <ul>
+                        <li>Gimnasio</li>
+                        <li>Todos los tratamientos</li>
+                    </ul>
+
+                </article>
+                <article class="plan">
+
+                    <div class="plan-img">
+                        <img src="images/plate.png" alt="Masaje Relajante">
+                    </div>
+                    <h2 class="title-2">PLATE</h2>
+                    <button class="plan-btn menu-bold">Ver condiciones</button>
+                    <ul>
+
+                        <li>Tratamientos Faciales</li>
+                    </ul>
+
+                </article>
+            </div>
+
+
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>    
+        <ul class="footer-items">
+            <li class="menu">Politicas de cookies</li>
+            <li class="menu">Aviso legal</li>
+            <li class="menu">Protección de datos</li>
+            <li class="menu">Mapa del sitio</li>               
+        </ul>
+        <div class="siguenosen">
+            <span class="menu">Síguenos en</span>
+            <span><img src="images\rs_facebook.png" alt="logo-facebook"></span>
+            <span><img src="images\rs_twiter.png" alt="logo-twitter"></span>
+            <span><img src="images\rs_youtube.png" alt="logo-youtube"></span>
+        </div>
+    </footer>
+
+
+</body>
+</html>
